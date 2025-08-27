@@ -5,6 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Emergency-Hotline | Home</title>
     <link rel="shortcut icon" href="./assets/favicon.ico" type="image/x-icon" />
+    <!-- Css Link Font hind-madurai & inter -->
+    <link rel="stylesheet" href="./style/style.css" />
+
     <!-- Cdn link tailwind and daisy UI -->
     <link
       href="https://cdn.jsdelivr.net/npm/daisyui@5"
@@ -12,8 +15,51 @@
       type="text/css"
     />
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <!-- font Awesome cdn -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css"
+      integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
   </head>
   <body>
-    <h1 class="text-2xl bg-fuchsia-500">Hello Mamam</h1>
+    <header>
+      <!-- Navbar Section -->
+      <nav class="bg-white shadow-md p-4 flex justify-between items-center">
+        <div class="flex items-center">
+          <img src="./assets/logo.png" alt="logo" class="w-10 h-10 mr-2" />
+          <span class="hind-madurai text-[#006747] text-xl font-bold"
+            >Emergency <br />
+            Service</span
+          >
+        </div>
+        <div class="flex items-center space-x-4">
+          <div
+            class="flex items-center gap-2 rounded-2xl bg-green-200 bg-opacity-10 px-5 py-1"
+          >
+            <span id="heart-count" class="font-semibold">0</span>
+            <span class="mr-1"
+              ><img class="h-5" src="./assets/heart.png" alt=""
+            /></span>
+          </div>
+          <div
+            class="flex items-center gap-2 rounded-2xl bg-green-200 bg-opacity-10 px-3 py-1"
+          >
+            <span id="coin-count" class="font-semibold">100</span>
+            <span class="text-yellow-500 mr-1"
+              ><img class="h-5" src="./assets/coin.png" alt=""
+            /></span>
+          </div>
+          <div
+            class="flex items-center justify-center rounded-2xl bg-[#00A63E] px-4.5 py-1.5 gap-2"
+          >
+            <span id="copy-count" class="text-white font-semibold">0</span>
+            <span class="text-white font-semibold mr-1">Copy</span>
+          </div>
+        </div>
+      </nav>
+    </header>
   </body>
 </html>
