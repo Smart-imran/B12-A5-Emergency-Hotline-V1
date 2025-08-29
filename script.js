@@ -1,4 +1,4 @@
-// Initialize counts
+
 let heartCount = 0; 
 let coinCount = 100; 
 let copyCount = 0; 
@@ -15,7 +15,13 @@ function updateNavbar() {
 let heartIcons = document.querySelectorAll('.heart-icon');
 for (let icon of heartIcons) {
     icon.addEventListener('click', function() {
-        heartCount++; 
+        if (this.classList.contains('text-red-500')) {
+            this.classList.remove('text-red-500');
+            heartCount--; // Decrease count by 1 when red is removed
+        } else {
+            this.classList.add('text-red-500');
+            heartCount++; // Increase count by 1 when red is added
+        }
         updateNavbar(); 
     });
 }
