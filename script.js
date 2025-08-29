@@ -78,7 +78,7 @@ for (let btn of callButtons) {
     });
 }
 
-// Handle clear history button click
+// clear history 
 document.getElementById('clear-history').addEventListener('click', function() {
     historyList.innerHTML = ''; 
 });
