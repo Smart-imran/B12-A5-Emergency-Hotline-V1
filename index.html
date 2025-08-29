@@ -14,7 +14,7 @@
       type="text/css"
     />
     <!-- Hind Madurai Font CDN: For custom font -->
-    <link rel="stylesheet" href="./style/style.css">
+    <link rel="stylesheet" href="./style/style.css" />
 
     <!-- Font Awesome -->
     <link
@@ -24,7 +24,6 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
-
   </head>
   <body class="bg-gray-100 hind-madurai">
     <!-- Header: Contains the navbar -->
@@ -34,7 +33,11 @@
         class="bg-white shadow-md p-2 sm:p-4 flex flex-wrap justify-between items-center"
       >
         <div class="flex items-center cursor-pointer">
-          <img src="./assets/logo.png" alt="Logo" class="w-8 sm:w-10 h-8 sm:h-10 mr-1 sm:mr-2" />
+          <img
+            src="./assets/logo.png"
+            alt="Logo"
+            class="w-8 sm:w-10 h-8 sm:h-10 mr-1 sm:mr-2"
+          />
           <span class="text-lg sm:text-xl font-bold text-[#006747]"
             >Emergency <br />Service</span
           >
@@ -55,7 +58,9 @@
           <div
             class="flex items-center justify-center rounded-2xl bg-[#00A63E] px-2 sm:px-3 py-1 sm:py-1 gap-1 sm:gap-2"
           >
-            <span id="copy-count" class="text-white text-sm sm:font-semibold">0</span>
+            <span id="copy-count" class="text-white text-sm sm:font-semibold"
+              >0</span
+            >
             <span class="text-white text-sm sm:font-semibold">Copy</span>
           </div>
         </div>
@@ -66,33 +71,37 @@
     <section
       class="bg-gradient-to-r from-[#013223] via-[#006747] to-[#013223] py-4 sm:py-8 text-center w-full min-h-[200px] sm:min-h-[250px] md:min-h-[300px] lg:min-h-[350px] xl:min-h-[400px] flex flex-col items-center justify-center px-2 sm:px-4"
     >
-     <img
-  src="./assets/logo-dark.png"
-  alt="Hero Logo"
-  class="mx-auto w-12 sm:w-16 md:w-20 lg:w-24 xl:w-28 h-12 sm:h-16 md:h-20 lg:h-24 xl:h-28 mb-4 sm:mb-8"
-/>
+      <img
+        src="./assets/logo-dark.png"
+        alt="Hero Logo"
+        class="mx-auto w-12 sm:w-16 md:w-20 lg:w-24 xl:w-28 h-12 sm:h-16 md:h-20 lg:h-24 xl:h-28 mb-4 sm:mb-8"
+      />
 
-<div class="space-y-2 sm:space-y-4 md:space-y-6 lg:space-y-8 text-center">
-  <h1 class="text-xl sm:text-2xl md:text-3xl lg:text-4xl xl:text-5xl text-white font-bold">
-    Emergency Service Directory
-  </h1>
-  <p class="text-white font-semibold text-xl">
-    Government Emergency Services at Your Fingertip – A Project by  Government of the People’s Republic of Bangladesh
-  </p>
-</div>
-
+      <div class="space-y-2 sm:space-y-4 md:space-y-6 lg:space-y-8 text-center">
+        <h1
+          class="text-xl sm:text-2xl md:text-3xl lg:text-4xl xl:text-5xl text-white font-bold"
+        >
+          Emergency Service Directory
+        </h1>
+        <p class="text-white font-semibold text-xl">
+          Government Emergency Services at Your Fingertip – A Project by
+          Government of the People’s Republic of Bangladesh
+        </p>
+      </div>
     </section>
 
     <!-- Main Section: Contains card and history sections -->
-    <main class="container mx-auto bg-[#F5FFF6] p-2 sm:p-4 grid grid-cols-1 md:grid-cols-12 gap-2 sm:gap-4">
+    <main
+      class="container mx-auto bg-[#F5FFF6] p-2 sm:p-4 grid grid-cols-1 md:grid-cols-12 gap-2 sm:gap-4"
+    >
       <!-- Card Section: 9 columns, cards-->
-       
+
       <section
         class="md:col-span-9 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-2 sm:gap-4"
       >
         <!-- Card 1: National Emergency Number -->
         <article class="bg-white p-2 sm:p-4 rounded-lg shadow-md">
-          <div class="flex justify-between items-center mb-2 sm:mb-4">            
+          <div class="flex justify-between items-center mb-2 sm:mb-4">
             <div
               class="w-10 sm:w-12 h-10 sm:h-12 bg-[#FFE3E2] rounded-lg flex items-center justify-center"
             >
@@ -102,21 +111,32 @@
                 class="w-5 sm:w-6 h-5 sm:h-6"
               />
             </div>
-            <h2>              
-              <i class="fa-regular fa-heart text-lg sm:text-xl heart-icon cursor-pointer"></i>
+            <h2>
+              <i
+                class="fa-regular fa-heart text-lg sm:text-xl heart-icon cursor-pointer"
+              ></i>
             </h2>
           </div>
 
           <div>
-            <h2 class="text-lg sm:text-xl font-bold">National Emergency Number</h2>
+            <h2 class="text-lg sm:text-xl font-bold">
+              National Emergency Number
+            </h2>
             <p class="text-gray-600 text-sm">National Emergency</p>
             <br />
             <p class="text-xl sm:text-2xl font-semibold">999</p>
-            <span class="bg-gray-300 px-1 sm:px-2 rounded-md mt-2 sm:mt-10">All</span>
+            <span class="bg-gray-300 px-1 sm:px-2 rounded-md mt-2 sm:mt-10"
+              >All</span
+            >
           </div>
 
-          <div class="flex flex-col sm:flex-row justify-between mt-2 sm:mt-4 space-y-2 sm:space-y-0 sm:space-x-2">
-            <button class="btn btn-sm border-2 border-gray-400 px-4 sm:px-8 md:px-12 copy-btn" data-number="999">
+          <div
+            class="flex flex-col sm:flex-row justify-between mt-2 sm:mt-4 space-y-2 sm:space-y-0 sm:space-x-2"
+          >
+            <button
+              class="btn btn-sm border-2 border-gray-400 px-4 sm:px-8 md:px-12 copy-btn"
+              data-number="999"
+            >
               <i class="fa-solid fa-copy"></i>Copy
             </button>
 
@@ -130,7 +150,7 @@
           </div>
         </article>
 
-        <!-- Card 2: Police helpLine Number -->       
+        <!-- Card 2: Police helpLine Number -->
 
         <article class="bg-white p-2 sm:p-4 rounded-lg shadow-md">
           <div class="flex justify-between items-center mb-2 sm:mb-4">
@@ -144,7 +164,9 @@
               />
             </div>
             <h2>
-              <i class="fa-regular fa-heart text-lg sm:text-xl heart-icon cursor-pointer"></i>
+              <i
+                class="fa-regular fa-heart text-lg sm:text-xl heart-icon cursor-pointer"
+              ></i>
             </h2>
           </div>
 
@@ -153,11 +175,18 @@
             <p class="text-gray-600 text-sm">Police</p>
             <br />
             <p class="text-xl sm:text-2xl font-semibold">999</p>
-            <span class="bg-gray-300 px-1 sm:px-2 rounded-md mt-2 sm:mt-10">Police</span>
+            <span class="bg-gray-300 px-1 sm:px-2 rounded-md mt-2 sm:mt-10"
+              >Police</span
+            >
           </div>
 
-          <div class="flex flex-col sm:flex-row justify-between mt-2 sm:mt-4 space-y-2 sm:space-y-0 sm:space-x-2">
-            <button class="btn btn-sm px-4 sm:px-8 md:px-12 border-2 border-gray-400 copy-btn" data-number="999">
+          <div
+            class="flex flex-col sm:flex-row justify-between mt-2 sm:mt-4 space-y-2 sm:space-y-0 sm:space-x-2"
+          >
+            <button
+              class="btn btn-sm px-4 sm:px-8 md:px-12 border-2 border-gray-400 copy-btn"
+              data-number="999"
+            >
               <i class="fa-solid fa-copy"></i>Copy
             </button>
 
@@ -171,7 +200,7 @@
           </div>
         </article>
 
-        <!-- Card 3: Fire Service -->       
+        <!-- Card 3: Fire Service -->
 
         <article class="bg-white p-2 sm:p-4 rounded-lg shadow-md">
           <div class="flex justify-between items-center mb-2 sm:mb-4">
@@ -184,8 +213,10 @@
                 class="w-5 sm:w-6 h-5 sm:h-6"
               />
             </div>
-            <h2>                
-              <i class="fa-regular fa-heart text-lg sm:text-xl heart-icon cursor-pointer"></i>
+            <h2>
+              <i
+                class="fa-regular fa-heart text-lg sm:text-xl heart-icon cursor-pointer"
+              ></i>
             </h2>
           </div>
 
@@ -194,11 +225,18 @@
             <p class="text-gray-600 text-sm">Fire Service</p>
             <br />
             <p class="text-xl sm:text-2xl font-semibold">999</p>
-            <span class="bg-gray-300 px-1 sm:px-2 rounded-md mt-2 sm:mt-10">Fire</span>
+            <span class="bg-gray-300 px-1 sm:px-2 rounded-md mt-2 sm:mt-10"
+              >Fire</span
+            >
           </div>
 
-          <div class="flex flex-col sm:flex-row justify-between mt-2 sm:mt-4 space-y-2 sm:space-y-0 sm:space-x-2">
-            <button class="btn btn-sm px-4 sm:px-8 md:px-12 border-2 border-gray-400 copy-btn" data-number="999">
+          <div
+            class="flex flex-col sm:flex-row justify-between mt-2 sm:mt-4 space-y-2 sm:space-y-0 sm:space-x-2"
+          >
+            <button
+              class="btn btn-sm px-4 sm:px-8 md:px-12 border-2 border-gray-400 copy-btn"
+              data-number="999"
+            >
               <i class="fa-solid fa-copy"></i>Copy
             </button>
 
@@ -212,7 +250,7 @@
           </div>
         </article>
 
-        <!-- Card 4: Ambulance Service -->       
+        <!-- Card 4: Ambulance Service -->
 
         <article class="bg-white p-2 sm:p-4 rounded-lg shadow-md">
           <div class="flex justify-between items-center mb-2 sm:mb-4">
@@ -226,7 +264,9 @@
               />
             </div>
             <h2>
-              <i class="fa-regular fa-heart text-lg sm:text-xl heart-icon cursor-pointer"></i>
+              <i
+                class="fa-regular fa-heart text-lg sm:text-xl heart-icon cursor-pointer"
+              ></i>
             </h2>
           </div>
 
@@ -235,11 +275,18 @@
             <p class="text-gray-600 text-sm">Ambulance Service</p>
             <br />
             <p class="text-xl sm:text-2xl font-semibold">1994-999999</p>
-            <span class="bg-gray-300 px-1 sm:px-2 rounded-md mt-2 sm:mt-10">Health</span>
+            <span class="bg-gray-300 px-1 sm:px-2 rounded-md mt-2 sm:mt-10"
+              >Health</span
+            >
           </div>
 
-          <div class="flex flex-col sm:flex-row justify-between mt-2 sm:mt-4 space-y-2 sm:space-y-0 sm:space-x-2">
-            <button class="btn btn-sm px-4 sm:px-8 md:px-12 border-2 border-gray-400 copy-btn" data-number="1994-999999">
+          <div
+            class="flex flex-col sm:flex-row justify-between mt-2 sm:mt-4 space-y-2 sm:space-y-0 sm:space-x-2"
+          >
+            <button
+              class="btn btn-sm px-4 sm:px-8 md:px-12 border-2 border-gray-400 copy-btn"
+              data-number="1994-999999"
+            >
               <i class="fa-solid fa-copy"></i>Copy
             </button>
 
@@ -253,11 +300,11 @@
           </div>
         </article>
 
-        <!-- Card 5: Women & Child Helpline -->        
+        <!-- Card 5: Women & Child Helpline -->
 
         <article class="bg-white p-2 sm:p-4 rounded-lg shadow-md">
           <div class="flex justify-between items-center mb-2 sm:mb-4">
-           <div
+            <div
               class="w-10 sm:w-12 h-10 sm:h-12 bg-[#FFE3E2] rounded-lg flex items-center justify-center"
             >
               <img
@@ -267,7 +314,9 @@
               />
             </div>
             <h2>
-              <i class="fa-regular fa-heart text-lg sm:text-xl heart-icon cursor-pointer"></i>
+              <i
+                class="fa-regular fa-heart text-lg sm:text-xl heart-icon cursor-pointer"
+              ></i>
             </h2>
           </div>
 
@@ -276,11 +325,18 @@
             <p class="text-gray-600 text-sm">Women & Child Helpline</p>
             <br />
             <p class="text-xl sm:text-2xl font-semibold">109</p>
-            <span class="bg-gray-300 px-1 sm:px-2 rounded-md mt-2 sm:mt-10">Help</span>
+            <span class="bg-gray-300 px-1 sm:px-2 rounded-md mt-2 sm:mt-10"
+              >Help</span
+            >
           </div>
 
-          <div class="flex flex-col sm:flex-row justify-between mt-2 sm:mt-4 space-y-2 sm:space-y-0 sm:space-x-2">
-            <button class="btn btn-sm px-4 sm:px-8 md:px-12 border-2 border-gray-400 copy-btn" data-number="109">
+          <div
+            class="flex flex-col sm:flex-row justify-between mt-2 sm:mt-4 space-y-2 sm:space-y-0 sm:space-x-2"
+          >
+            <button
+              class="btn btn-sm px-4 sm:px-8 md:px-12 border-2 border-gray-400 copy-btn"
+              data-number="109"
+            >
               <i class="fa-solid fa-copy"></i>Copy
             </button>
 
@@ -294,10 +350,10 @@
           </div>
         </article>
 
-        <!-- Card 6: Anti-Corruption Helpline -->     
+        <!-- Card 6: Anti-Corruption Helpline -->
         <article class="bg-white p-2 sm:p-4 rounded-lg shadow-md">
           <div class="flex justify-between items-center mb-2 sm:mb-4">
-           <div
+            <div
               class="w-10 sm:w-12 h-10 sm:h-12 bg-[#FFE3E2] rounded-lg flex items-center justify-center"
             >
               <img
@@ -307,20 +363,31 @@
               />
             </div>
             <h2>
-              <i class="fa-regular fa-heart text-lg sm:text-xl heart-icon cursor-pointer"></i>
+              <i
+                class="fa-regular fa-heart text-lg sm:text-xl heart-icon cursor-pointer"
+              ></i>
             </h2>
           </div>
 
           <div>
-            <h2 class="text-lg sm:text-xl font-bold">Anti-Corruption Helpline</h2>
+            <h2 class="text-lg sm:text-xl font-bold">
+              Anti-Corruption Helpline
+            </h2>
             <p class="text-gray-600 text-sm">Anti-Corruption</p>
             <br />
             <p class="text-xl sm:text-2xl font-semibold">106</p>
-            <span class="bg-gray-300 px-1 sm:px-2 rounded-md mt-2 sm:mt-10">Govt</span>
+            <span class="bg-gray-300 px-1 sm:px-2 rounded-md mt-2 sm:mt-10"
+              >Govt</span
+            >
           </div>
 
-          <div class="flex flex-col sm:flex-row justify-between mt-2 sm:mt-4 space-y-2 sm:space-y-0 sm:space-x-2">
-            <button class="btn btn-sm px-4 sm:px-8 md:px-12 border-2 border-gray-400 copy-btn" data-number="106">
+          <div
+            class="flex flex-col sm:flex-row justify-between mt-2 sm:mt-4 space-y-2 sm:space-y-0 sm:space-x-2"
+          >
+            <button
+              class="btn btn-sm px-4 sm:px-8 md:px-12 border-2 border-gray-400 copy-btn"
+              data-number="106"
+            >
               <i class="fa-solid fa-copy"></i>Copy
             </button>
 
@@ -334,10 +401,10 @@
           </div>
         </article>
 
-        <!-- Card 7: Electricity Helpline -->     
+        <!-- Card 7: Electricity Helpline -->
         <article class="bg-white p-2 sm:p-4 rounded-lg shadow-md">
           <div class="flex justify-between items-center mb-2 sm:mb-4">
-           <div
+            <div
               class="w-10 sm:w-12 h-10 sm:h-12 bg-[#FFE3E2] rounded-lg flex items-center justify-center"
             >
               <img
@@ -347,7 +414,9 @@
               />
             </div>
             <h2>
-              <i class="fa-regular fa-heart text-lg sm:text-xl heart-icon cursor-pointer"></i>
+              <i
+                class="fa-regular fa-heart text-lg sm:text-xl heart-icon cursor-pointer"
+              ></i>
             </h2>
           </div>
 
@@ -356,11 +425,18 @@
             <p class="text-gray-600 text-sm">Electricity Outage</p>
             <br />
             <p class="text-xl sm:text-2xl font-semibold">16216</p>
-            <span class="bg-gray-300 px-1 sm:px-2 rounded-md mt-2 sm:mt-10">Electricity</span>
+            <span class="bg-gray-300 px-1 sm:px-2 rounded-md mt-2 sm:mt-10"
+              >Electricity</span
+            >
           </div>
 
-          <div class="flex flex-col sm:flex-row justify-between mt-2 sm:mt-4 space-y-2 sm:space-y-0 sm:space-x-2">
-            <button class="btn btn-sm px-4 sm:px-8 md:px-12 border-2 border-gray-400 copy-btn" data-number="16216">
+          <div
+            class="flex flex-col sm:flex-row justify-between mt-2 sm:mt-4 space-y-2 sm:space-y-0 sm:space-x-2"
+          >
+            <button
+              class="btn btn-sm px-4 sm:px-8 md:px-12 border-2 border-gray-400 copy-btn"
+              data-number="16216"
+            >
               <i class="fa-solid fa-copy"></i>Copy
             </button>
 
@@ -374,10 +450,10 @@
           </div>
         </article>
 
-        <!-- Card 8: Brac Helpline -->     
+        <!-- Card 8: Brac Helpline -->
         <article class="bg-white p-2 sm:p-4 rounded-lg shadow-md">
           <div class="flex justify-between items-center mb-2 sm:mb-4">
-           <div
+            <div
               class="w-10 sm:w-12 h-10 sm:h-12 bg-[#FFE3E2] rounded-lg flex items-center justify-center"
             >
               <img
@@ -387,20 +463,29 @@
               />
             </div>
             <h2>
-              <i class="fa-regular fa-heart text-lg sm:text-xl heart-icon cursor-pointer"></i>
+              <i
+                class="fa-regular fa-heart text-lg sm:text-xl heart-icon cursor-pointer"
+              ></i>
             </h2>
           </div>
 
           <div>
             <h2 class="text-lg sm:text-xl font-bold">Brac Helpline</h2>
-            <p class="text-gray-600 text-sm">Brac </p>
+            <p class="text-gray-600 text-sm">Brac</p>
             <br />
             <p class="text-xl sm:text-2xl font-semibold">16445</p>
-            <span class="bg-gray-300 px-1 sm:px-2 rounded-md mt-2 sm:mt-10">NGO</span>
+            <span class="bg-gray-300 px-1 sm:px-2 rounded-md mt-2 sm:mt-10"
+              >NGO</span
+            >
           </div>
 
-          <div class="flex flex-col sm:flex-row justify-between mt-2 sm:mt-4 space-y-2 sm:space-y-0 sm:space-x-2">
-            <button class="btn btn-sm px-4 sm:px-8 md:px-12 border-2 border-gray-400 copy-btn" data-number="16445">
+          <div
+            class="flex flex-col sm:flex-row justify-between mt-2 sm:mt-4 space-y-2 sm:space-y-0 sm:space-x-2"
+          >
+            <button
+              class="btn btn-sm px-4 sm:px-8 md:px-12 border-2 border-gray-400 copy-btn"
+              data-number="16445"
+            >
               <i class="fa-solid fa-copy"></i>Copy
             </button>
 
@@ -414,10 +499,10 @@
           </div>
         </article>
 
-        <!-- Card 9: Bangladesh Railway Helpline -->     
+        <!-- Card 9: Bangladesh Railway Helpline -->
         <article class="bg-white p-2 sm:p-4 rounded-lg shadow-md">
           <div class="flex justify-between items-center mb-2 sm:mb-4">
-           <div
+            <div
               class="w-10 sm:w-12 h-10 sm:h-12 bg-[#FFE3E2] rounded-lg flex items-center justify-center"
             >
               <img
@@ -427,20 +512,31 @@
               />
             </div>
             <h2>
-              <i class="fa-regular fa-heart text-lg sm:text-xl heart-icon cursor-pointer"></i>
+              <i
+                class="fa-regular fa-heart text-lg sm:text-xl heart-icon cursor-pointer"
+              ></i>
             </h2>
           </div>
 
           <div>
-            <h2 class="text-lg sm:text-xl font-bold">Bangladesh Railway Helpline</h2>
+            <h2 class="text-lg sm:text-xl font-bold">
+              Bangladesh Railway Helpline
+            </h2>
             <p class="text-gray-600 text-sm">Bangladesh Railway</p>
             <br />
             <p class="text-xl sm:text-2xl font-semibold">163</p>
-            <span class="bg-gray-300 px-1 sm:px-2 rounded-md mt-2 sm:mt-10">Travel</span>
+            <span class="bg-gray-300 px-1 sm:px-2 rounded-md mt-2 sm:mt-10"
+              >Travel</span
+            >
           </div>
 
-          <div class="flex flex-col sm:flex-row justify-between mt-2 sm:mt-4 space-y-2 sm:space-y-0 sm:space-x-2">
-            <button class="btn btn-sm px-4 sm:px-8 md:px-12 border-2 border-gray-400 copy-btn" data-number="163">
+          <div
+            class="flex flex-col sm:flex-row justify-between mt-2 sm:mt-4 space-y-2 sm:space-y-0 sm:space-x-2"
+          >
+            <button
+              class="btn btn-sm px-4 sm:px-8 md:px-12 border-2 border-gray-400 copy-btn"
+              data-number="163"
+            >
               <i class="fa-solid fa-copy"></i>Copy
             </button>
 
@@ -459,13 +555,22 @@
       <aside class="md:col-span-3 bg-white p-2 sm:p-4 rounded-lg shadow-md">
         <header class="flex justify-between items-center mb-2 sm:mb-4">
           <h2 class="text-lg sm:text-xl font-bold flex items-center">
-            <span class="mr-1 sm:mr-2"><i class="fa-solid fa-clock-rotate-left"></i></span> Call History
+            <span class="mr-1 sm:mr-2"
+              ><i class="fa-solid fa-clock-rotate-left"></i
+            ></span>
+            Call History
           </h2>
-          <button id="clear-history" class="btn btn-sm text-white bg-green-600 hover:bg-green-700 ">
+          <button
+            id="clear-history"
+            class="btn btn-sm text-white bg-green-600 hover:bg-green-700"
+          >
             Clear
           </button>
         </header>
-        <ul id="history-list" class="space-y-2 sm:space-y-4 max-h-[300px] sm:max-h-[500px] overflow-y-auto">
+        <ul
+          id="history-list"
+          class="space-y-2 sm:space-y-4 max-h-[300px] sm:max-h-[500px] overflow-y-auto"
+        >
           <!-- Call history will be dynamically added here -->
         </ul>
       </aside>
